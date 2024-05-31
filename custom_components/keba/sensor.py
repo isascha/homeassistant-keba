@@ -1,4 +1,5 @@
 """Support for KEBA charging station sensors."""
+#test
 from __future__ import annotations
 
 from collections.abc import Mapping
