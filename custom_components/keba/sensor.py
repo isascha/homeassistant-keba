@@ -5,11 +5,11 @@ from __future__ import annotations
 from collections.abc import Mapping
 from typing import Any
 
-+---------------------------------------------------------------------------------
+#+---------------------------------------------------------------------------------
 from keba_kecontact.chargingstation import ChargingStation
 from keba_kecontact.connection import KebaKeContact
 
-+---------------------------------------------------------------------------------
+#+---------------------------------------------------------------------------------
 from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
