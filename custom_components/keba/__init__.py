@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import logging
 
-from .keba_kecontact.chargingstation import ChargingStation, KebaService
+from keba_kecontact.keba_kecontact.chargingstation import ChargingStation, KebaService
 from keba_kecontact.keba_kecontact.connection import KebaKeContact, SetupError, create_keba_connection
 
 from homeassistant.config_entries import SOURCE_IMPORT, ConfigEntry
