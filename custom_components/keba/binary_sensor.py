@@ -20,11 +20,12 @@ from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from . import KebaBaseEntity
 from .const import DOMAIN, KEBA_CONNECTION
 
+# Definition der Sensoren in HA
 SENSOR_TYPES = [
     # default
     BinarySensorEntityDescription(
         key="Plug_EV",
-        name="Plugged on EV",
+        name="Plugged on EV", # Namensdefinition in HA
         device_class=BinarySensorDeviceClass.PLUG,
     ),
     BinarySensorEntityDescription(
@@ -68,6 +69,9 @@ SENSOR_TYPES = [
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
 ]
+
+
+# ------------------------------------------------------------------------------------------
 
 
 async def async_setup_entry(
