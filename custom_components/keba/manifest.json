@@ -7,6 +7,6 @@
   "documentation": "https://www.home-assistant.io/integrations/keba",
   "iot_class": "local_polling",
   "loggers": ["keba_kecontact"],
-  "requirements": ["keba-kecontact @ git+https://github.com/spali/keba-kecontact@master"],
+  "requirements": ["keba-kecontact @ git+https://github.com/isascha/keba-kecontact@master"],
   "version": "3.0.3-spali"
 }
